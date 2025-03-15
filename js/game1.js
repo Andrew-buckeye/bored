@@ -22,3 +22,30 @@ function submitCode() {
         enteredCode = "";
     }
 }
+
+// Countdown starting time in seconds (60 seconds)
+let totalTime = 60; // 1 minute = 60 seconds
+// let timerElement = document.getElementById("timer");
+document.getElementById("timer").innerText = "no more";
+
+// // Function to update the timer display
+// function updateTimerDisplay() {
+//     timerElement.textContent = 'TotalTime';
+// }
+
+// // Function to start the countdown timer
+// function startCountdown() {
+//     const countdownInterval = setInterval(function () {
+//         if (totalTime <= 0) {
+//             clearInterval(countdownInterval); // Stop the countdown when it reaches 0
+//             timerElement.textContent = "00:00"; // Display 00:00 when finished
+//             alert("Time's up!"); // Optionally alert when the countdown reaches zero
+//         } else {
+//             totalTime--;
+//             updateTimerDisplay();
+//         }
+//     }, 1000);
+// }
+
+// // Start the countdown when the page loads
+// startCountdown();
